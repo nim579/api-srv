@@ -1,0 +1,32 @@
+{
+  "name": "api-srv",
+  "version": "0.1.0",
+  "description": "Node.js JSON-API server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nim579/api-srv.git"
+  },
+  "keywords": [
+    "node.js",
+    "server",
+    "json-api"
+  ],
+  "author": "Nick Iv",
+  "license": "MIT",
+  "gitHead": "b0d05398b8e1d3e39af6f916e5d3e01209e94f1d",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "coffee-script": "~1.8.0",
+    "grunt": "~0.4.5",
+    "grunt-contrib-coffee": "~0.10.0",
+    "grunt-contrib-watch": "~0.6.1"
+  },
+  "dependencies": {
+    "underscore": "~1.7.0",
+    "backbone": "~1.1.2"
+  }
+}
