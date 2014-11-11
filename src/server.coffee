@@ -8,6 +8,7 @@ httpNode = require './httpNode'
 class controller
     options:
         port: 8000
+        host: "0.0.0.0"
         cors: 
             enabled: true
 

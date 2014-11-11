@@ -28,6 +28,7 @@ new Srv({port: 8000});
 ## Options
 
 * `Number` **port** — Server port, default `8000`
+* `String` **host** — Server host, default `"0.0.0.0"`
 * `Number` **timeout** — Request timeout, trfault `30000` (30 sec)
 * `Object` **cors** — [CORS](https://ru.wikipedia.org/wiki/Cross-origin_resource_sharing) settings
 	* `Boolean` **enabled** — CORS enabled flag, default `true`

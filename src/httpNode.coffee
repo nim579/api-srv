@@ -89,11 +89,11 @@ Requests = Backbone.Collection.extend
 
 
 class httpNode
-    constructor: (port=8000)->
+    constructor: (port=8000, host="0.0.0.0")->
         _.extend @, Backbone.Events
 
         @server = http.createServer _.bind(@request, @)
-        @server.listen port        
+        @server.listen port, host
 
         return @
 
