@@ -3,6 +3,12 @@ api-srv
 
 Node.js JSON-API server
 
+## Install
+
+~~~~~ bash
+$ npm install api-srv
+~~~~~
+
 ## Fast start
 
 Simple configurating
@@ -12,7 +18,9 @@ var ApiSrv = require('api-srv')
 
 var Srv = ApiSrv.extend({
 	routes: {
-		"GET": "main"
+		"/": {
+			"GET": "main"
+		}
 	},
 	main: function(request){
 		request.response({
